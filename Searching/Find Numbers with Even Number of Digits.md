@@ -25,3 +25,8 @@ class Solution {
 ```
 
 solved by making methods , to first make a method to count digits and in main function checking if it is even or not
+
+# trick : to calculate no of digits in a number
+```
+ return (int)(Math.log10(n))+1;
+```
